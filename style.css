@@ -1,0 +1,61 @@
+@font-face {
+    font-family: MC;
+    src: url(Minecraft.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: MC;
+}
+
+nav{
+    transition: all 0.5s ease;
+}
+
+
+#beemodel{
+    position: fixed;
+    z-index: 100;
+    transition: transform 1s ease-out ;
+    pointer-events: none;
+}
+
+#sec1{
+    background-image: url("background.jpg");
+}
+
+#sec2{
+    background-image: url("background2.png");
+}
+
+#sec3{
+     background-image: url("background3.png");
+}
+
+#sec4{
+    background-image: url("background4.png");
+}
+
+#sec1, #sec2, #sec3, #sec4{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sec2{
+    background-color: aqua;
+}
+
+#carousel-img{
+    transition: all 0.7s ease-in-out;
+}
+
+#waves{
+    background-color: white/6;
+}
